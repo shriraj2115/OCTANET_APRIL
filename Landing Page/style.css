@@ -1,0 +1,136 @@
+*{
+color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: auto;
+    margin: 0px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 30px;
+}
+.nav img{
+    height: 5vw;
+    width: 8vw;
+    margin-left: 2vw;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap:7vw;
+    color: aliceblue;
+    text-transform: uppercase;
+  font-family: cursive;
+    font-weight: 10;
+    margin: 0px 30px;
+  
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    gap:2vw;
+    color: aliceblue;
+     text-transform: uppercase;
+    font-family:cursive ;
+    font-weight: 300;
+    margin: 0px 30px;
+}
+.nav3 button{
+    color: black;
+    font-family:cursive ;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+}
+.content {
+    height:auto;
+    width: auto;
+    border-bottom: lightseagreen;
+}
+.content h1{
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   z-index: 70;
+   position: relative;
+   
+    
+}
+.content h1:nth-child(1){
+    margin-top: 10%;
+}
+.content span{
+    color: aqua;
+}
+.img1{
+    height: 300px;
+    top: 14%;
+    left: 7%;
+    position:absolute;
+    border-radius: 3xp;
+    opacity: 1;
+}
+.img2{
+    height: 200px;
+    position:absolute;
+    top: 14%;
+    right: 27%;
+    border-radius: 3px;
+    opacity: 1;
+}
+.img3{
+    height: 300px;
+    position:absolute;
+    bottom: 10%;
+    right: 7%;
+    border-radius: 3px;
+    opacity: 1;
+    z-index: 1;
+}
+.img4{
+    height: 300px;
+    position:absolute;
+  bottom: 10%;
+    left:27%;
+    border-radius: 3px;
+    opacity: 1;
+    z-index: 3;
+}
+.content2{
+    height: 60vh;
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20%;
+    display: flex;
+}
+.c2a{
+    height: 100%;
+    width: 40%;
+    background-color: aqua;
+}
+.c2b{
+    height: 100%;
+    width: 60%;
+    background-color: red;
+}
+.c2bc{
+    height: 10%;
+    width: 10%;
+    border-radius: 50px;
+    border-top: 30px red;
+}
